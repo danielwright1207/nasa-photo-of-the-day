@@ -24,7 +24,7 @@ function Header() {
   }, []);
   return (
     <div className="header-date-description">
-      <h2>Date: {date}</h2>
+      <h2>Today in the Universe! {date}</h2>
       <h3>{description}</h3>
     </div>
   );
